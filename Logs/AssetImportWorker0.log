@@ -15,7 +15,7 @@ C:/git hub/2023-Educational-4th-Team
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61226
+61769
 Successfully changed project path to: C:/git hub/2023-Educational-4th-Team
 C:/git hub/2023-Educational-4th-Team
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/git hub/2023-Educational-4th-Team
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16616] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 3381096514 [EditorId] 3381096514 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21628] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 1448058027 [EditorId] 1448058027 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16616] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 3381096514 [EditorId] 3381096514 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21628] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 1448058027 [EditorId] 1448058027 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 54.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 50.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.22f1 (b6c551784ba3)
 [Subsystems] Discovering subsystems at path D:/Unity-1/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -67,74 +67,74 @@ Initialize mono
 Mono path[0] = 'D:/Unity-1/2021.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity-1/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity-1/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity-1/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001656 seconds.
+Registered in 0.001431 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 52.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 50.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.421 seconds
+- Completed reload, in  0.417 seconds
 Domain Reload Profiling:
-	ReloadAssembly (421ms)
-		BeginReloadAssembly (64ms)
+	ReloadAssembly (417ms)
+		BeginReloadAssembly (58ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (297ms)
-			LoadAssemblies (64ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (70ms)
+			SetupTypeCache (69ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (176ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (170ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (52ms)
+				RefreshPlugins (51ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (78ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				ProcessInitializeOnLoadAttributes (82ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002668 seconds.
+Registered in 0.002284 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\git hub\2023-Educational-4th-Team\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\git hub\2023-Educational-4th-Team\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.650 seconds
+- Completed reload, in  0.658 seconds
 Domain Reload Profiling:
-	ReloadAssembly (651ms)
-		BeginReloadAssembly (87ms)
+	ReloadAssembly (659ms)
+		BeginReloadAssembly (90ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (496ms)
-			LoadAssemblies (69ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (502ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (165ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (216ms)
+			SetupTypeCache (174ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (220ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (48ms)
-				ProcessInitializeOnLoadAttributes (150ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (151ms)
 				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
@@ -144,12 +144,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (113.4 KB). Loaded Objects now: 3507.
-Memory consumption went from 107.5 MB to 107.4 MB.
-Total: 2.253900 ms (FindLiveObjects: 0.174800 ms CreateObjectMapping: 0.077300 ms MarkObjects: 1.913400 ms  DeleteObjects: 0.087700 ms)
+Unloading 24 unused Assets / (113.9 KB). Loaded Objects now: 3509.
+Memory consumption went from 107.7 MB to 107.6 MB.
+Total: 2.089300 ms (FindLiveObjects: 0.164800 ms CreateObjectMapping: 0.071800 ms MarkObjects: 1.774300 ms  DeleteObjects: 0.077700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,109 +163,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 612276.179557 seconds.
-  path: Assets/Scenes/Obstacle/가시/Spine.fbx
-  artifactKey: Guid(9f4eff173c4c9e14d97bdd4af75a23cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Obstacle/가시/Spine.fbx using Guid(9f4eff173c4c9e14d97bdd4af75a23cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52fc00412f37cd27ff0c9dacbd42236') in 0.097728 seconds 
+  Time since last request: 614440.667163 seconds.
+  path: Assets/Scenes/Back Ground Object/Road/Materials
+  artifactKey: Guid(8d6d41297672a2045a867ce9300615a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Back Ground Object/Road/Materials using Guid(8d6d41297672a2045a867ce9300615a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab633fe58997d2c103a9cabbf8c8833') in 0.005313 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 228.498222 seconds.
-  path: Assets/Scenes/Obstacle/가시/Spine.fbx
-  artifactKey: Guid(9f4eff173c4c9e14d97bdd4af75a23cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Obstacle/가시/Spine.fbx using Guid(9f4eff173c4c9e14d97bdd4af75a23cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5b0b709821bcef6c82f1923fe76131') in 0.027898 seconds 
+  Time since last request: 23.193040 seconds.
+  path: Assets/Scenes/Obstacle/올타리
+  artifactKey: Guid(0b84cdf3adda2524b9f88cb8faf08743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Obstacle/올타리 using Guid(0b84cdf3adda2524b9f88cb8faf08743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2154779d889107ba9f633d363e3580ac') in 0.001081 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.914174 seconds.
-  path: Assets/Scenes/Obstacle/가시/SPINE.png
-  artifactKey: Guid(536867e822b001a40ab2e164dae75d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Obstacle/가시/SPINE.png using Guid(536867e822b001a40ab2e164dae75d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4b470c760cb02a01255a20517ed7d7') in 0.013455 seconds 
+  Time since last request: 0.100830 seconds.
+  path: Assets/Scenes/Obstacle/올타리/올타리.fbx
+  artifactKey: Guid(48bdbbb51804a3943a24af757af77e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Obstacle/올타리/올타리.fbx using Guid(48bdbbb51804a3943a24af757af77e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2dcc0c429e31e6fb4302d0a1f83ad0') in 0.086040 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.720260 seconds.
-  path: Assets/Scenes/Obstacle/가시/Spine.mat
-  artifactKey: Guid(5f7db0c2e59c47d459775a4b7dc9aeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Obstacle/가시/Spine.mat using Guid(5f7db0c2e59c47d459775a4b7dc9aeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bcfcd32426e75ad84e366fe96c559e8') in 0.034658 seconds 
+  Time since last request: 581.273024 seconds.
+  path: Assets/Scenes/Back Ground Object/GOAL.fbx
+  artifactKey: Guid(88069a6a7c0c8f5479510a387a7e9182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Back Ground Object/GOAL.fbx using Guid(88069a6a7c0c8f5479510a387a7e9182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af96d2c732b53645c4a8ca014f562e60') in 0.027557 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 43.663116 seconds.
-  path: Assets/Scenes/Obstacle/가시/Materials
-  artifactKey: Guid(edaa25879dda0bc4cbefe63860ff0ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Obstacle/가시/Materials using Guid(edaa25879dda0bc4cbefe63860ff0ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f3d6ddd0d6da5f607d9600de902861') in 0.001091 seconds 
+  Time since last request: 10.227485 seconds.
+  path: Assets/Scenes/Back Ground Object/Goal.png
+  artifactKey: Guid(e7e691f3df3d36f409fd64d6596af4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Back Ground Object/Goal.png using Guid(e7e691f3df3d36f409fd64d6596af4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902a4ed9bf8358eafef419755cc11994') in 0.013375 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.290436 seconds.
-  path: Assets/Scenes/Obstacle/가시/Sine
-  artifactKey: Guid(ae552c56b3c28f143a3e6907aac097b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Obstacle/가시/Sine using Guid(ae552c56b3c28f143a3e6907aac097b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1d47ec33e3e09724cbafaf5d0193d0') in 0.001134 seconds 
+  Time since last request: 41.076881 seconds.
+  path: Assets/Scenes/Back Ground Object/GOAL
+  artifactKey: Guid(ffc7fe0344160ce47883d067eb498a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Back Ground Object/GOAL using Guid(ffc7fe0344160ce47883d067eb498a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3658f3ad3a0b99fe6dac124f265b6735') in 0.000910 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.899123 seconds.
-  path: Assets/Scenes/Obstacle/가시/Materials/SPINE.mat
-  artifactKey: Guid(738eaa0c5df7f5540ae07ea4f37d44ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Obstacle/가시/Materials/SPINE.mat using Guid(738eaa0c5df7f5540ae07ea4f37d44ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a6fc8d9d6ea00ecef1f6e7fc5c62ac') in 0.007697 seconds 
+  Time since last request: 7.501427 seconds.
+  path: Assets/Scenes/Back Ground Object/Materials
+  artifactKey: Guid(6b218255bc226184badf73dd0450bdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Back Ground Object/Materials using Guid(6b218255bc226184badf73dd0450bdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00a04cd097f0862d12ee49686ee7284') in 0.001277 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 607.433101 seconds.
-  path: Assets/Scenes/Obstacle/가시/ROAD.fbx
-  artifactKey: Guid(42cc90c2a65939f42b8ff9df5b6a3eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Obstacle/가시/ROAD.fbx using Guid(42cc90c2a65939f42b8ff9df5b6a3eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95bc3919e244396d4cdce0dd6e31ee3e') in 0.015250 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.490247 seconds.
-  path: Assets/Scenes/Obstacle/가시/ROAD.png
-  artifactKey: Guid(f8def856c40410942a9de65eb2dac3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Obstacle/가시/ROAD.png using Guid(f8def856c40410942a9de65eb2dac3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c078af44103494827b1fe6bf8510cc7') in 0.006511 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.400848 seconds.
-  path: Assets/Scenes/Obstacle/가시/Materials/ROAD.mat
-  artifactKey: Guid(015c0ead6a3f4b44c8d9b0a1fff3a0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Obstacle/가시/Materials/ROAD.mat using Guid(015c0ead6a3f4b44c8d9b0a1fff3a0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ef7ed7c42beb327154ea99e84acbae') in 0.006828 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.154234 seconds.
-  path: Assets/Scenes/Obstacle/가시/Roda
-  artifactKey: Guid(fb548cb15e52987479def4cebc17dbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Obstacle/가시/Roda using Guid(fb548cb15e52987479def4cebc17dbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0760cecafc59a59a14e37119b0341ef6') in 0.001077 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.939247 seconds.
-  path: Assets/Scenes/Obstacle/가시/Road
-  artifactKey: Guid(fb548cb15e52987479def4cebc17dbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Obstacle/가시/Road using Guid(fb548cb15e52987479def4cebc17dbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d58119c47b7734fc695054e69d80ab') in 0.000853 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 130.065533 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5f54dff60d36711d59de048442b81e') in 0.000985 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.115926 seconds.
-  path: Assets/Scenes/Coin
-  artifactKey: Guid(d69bd3a69da518248b972c2430805e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Coin using Guid(d69bd3a69da518248b972c2430805e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5339cf4e3b3c96c8ef44832f00f276') in 0.000932 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 379.165720 seconds.
-  path: Assets/Scenes/Coin/Coin.fbx
-  artifactKey: Guid(84d232a2790c01d43ad2892ba3032a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Coin/Coin.fbx using Guid(84d232a2790c01d43ad2892ba3032a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71eae0fcf82626a14991edcd270e29f9') in 0.017264 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.873639 seconds.
-  path: Assets/Scenes/Coin/Coin.fbx
-  artifactKey: Guid(84d232a2790c01d43ad2892ba3032a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Coin/Coin.fbx using Guid(84d232a2790c01d43ad2892ba3032a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae5db92745ca366935391bcb341402f') in 0.014422 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.841729 seconds.
-  path: Assets/Scenes/Back Ground Object/Road/Materials/ROAD.mat
-  artifactKey: Guid(670c1e1e3e86acd4aa3f1a6681355979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Back Ground Object/Road/Materials/ROAD.mat using Guid(670c1e1e3e86acd4aa3f1a6681355979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282525be2654a1ee246102a8b91899d0') in 0.006576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.594387 seconds.
-  path: Assets/Scenes/Obstacle/올타리/올타리.mat
-  artifactKey: Guid(fd648341352b2fa498124f96e1951bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Obstacle/올타리/올타리.mat using Guid(fd648341352b2fa498124f96e1951bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5348fb7850c1427bec8b878ffb97b989') in 0.009332 seconds 
+  Time since last request: 0.054459 seconds.
+  path: Assets/Scenes/Back Ground Object/Materials/Goal.mat
+  artifactKey: Guid(f218375436fb8564e988b212c432500d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Back Ground Object/Materials/Goal.mat using Guid(f218375436fb8564e988b212c432500d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5eaac64d9e27f629334fcaddd23edff') in 0.015326 seconds 
